@@ -1,0 +1,10 @@
+<!--pages/image/image.wxml-->
+<!-- 1. 基础用法 -->
+<image src="../../assets/bg.jpg"></image>
+
+<!-- 2. 图片裁剪、缩放的模式 -->
+<image src="../../assets/bg.jpg" mode="aspectFit"></image>
+<image src="../../assets/bg.jpg" mode="top left"></image>
+
+<!-- 3. 图片懒加载，在即将进入一定范围（上下三屏）时才开始加载 -->
+<image src="../../assets/bg.jpg" lazy-load show-menu-by-longpress bindload="loadAfter"></image>

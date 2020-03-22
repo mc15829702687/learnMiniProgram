@@ -1,0 +1,19 @@
+<!--pages/view/view.wxml-->
+<!-- 1. 基本用法 -->
+<view>hhhh</view>
+
+<!-- 2. 指定按下去的样式类 -->
+<view hover-class="clickActive">点击</view>
+
+<!-- 3. 按住后多久出现点击态，单位毫秒 -->
+<view hover-class="clickActive" hover-start-time="1000">点击</view> 
+
+<!-- 4. 手指松开后点击态保留时间，单位毫秒 -->
+<view hover-class="clickActive" hover-stay-time="1000">点击</view> 
+
+<!-- 5. 阻止冒泡 -->
+<view class="box1" hover-class="active">
+  <view class="box2" hover-class="active" hover-stop-propagation>
+    box2
+  </view>
+</view>

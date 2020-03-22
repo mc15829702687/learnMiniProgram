@@ -1,0 +1,14 @@
+<!--pages/button/button.wxml-->
+<!-- 1. 尺寸 -->
+<button size="mini">按钮</button>
+
+<!-- 2. 按钮的样式类型 -->
+<button size="mini" type="primary">按钮</button>
+<button size="mini" type="defaut">按钮</button>
+<button size="mini" type="warn">按钮</button>
+
+<!-- 3. 按钮是否镂空，背景色透明 -->
+<button size="mini" plain>按钮</button>
+
+<!-- 4. 名称前是否带 loading 图标 -->
+<button size="mini" loading hover-class="clickActive">按钮</button>

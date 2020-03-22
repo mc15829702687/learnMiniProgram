@@ -1,4 +1,4 @@
-// pages/about/about.js
+// pages/input/input.js
 Page({
 
   /**

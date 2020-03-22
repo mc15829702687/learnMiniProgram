@@ -1,0 +1,8 @@
+<!--pages/input/input.wxml-->
+<!-- 1.基础使用 -->
+<input value="111" type="text" confirm-type="send"/>
+
+<!-- 2. 类型 -->
+<input  type="number" placeholder="输入数字" focus confirm-type="搜索"/>
+<input  type="idcard"/>
+<input  type="digit"/>
